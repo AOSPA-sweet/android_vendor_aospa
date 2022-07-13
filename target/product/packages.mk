@@ -24,6 +24,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     curl
 
+# GameSpace
+PRODUCT_PACKAGES += \
+    GameSpace
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
