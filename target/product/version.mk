@@ -25,6 +25,7 @@
 # behind our releases. This is bundled alongside $(AOSPA_MINOR_VERSION)
 # and only changes per major Android releases.
 AOSPA_MAJOR_VERSION := sapphire
+CUSTOM_PLATFORM_RELEASE_OR_CODENAME := 12L
 
 # The version code is the upgradable portion during the cycle of
 # every major Android release. Each version code upgrade indicates
@@ -55,7 +56,8 @@ BUILD_DATE := $(shell date -u +%Y%m%d)
 AOSPA_VERSION := $(AOSPA_MAJOR_VERSION)-$(AOSPA_MINOR_VERSION)-$(AOSPA_BUILD)-$(AOSPA_BUILD_VARIANT)-$(BUILD_DATE)
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.aospa.version=$(AOSPA_VERSION)
+    ro.aospa.version=$(AOSPA_VERSION) \
+    ro.aospa.settings.android_version=$(CUSTOM_PLATFORM_RELEASE_OR_CODENAME)
 
 # The properties will be uppercase for parse by Settings, etc.
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
