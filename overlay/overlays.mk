@@ -27,4 +27,9 @@ PRODUCT_PACKAGES += \
     FontManropeOverlay \
     FontRobotoOverlay \
     FontUrbanistOverlay \
+    FontNothiingDotOverlay \
+    FontNothingDotHeadlineOverlay \
+    FontOppoSansOverlay \
+    FontFluidSansOverlay \
+    FontMiSansOverlay \
     ParanoidLauncherOverlay
