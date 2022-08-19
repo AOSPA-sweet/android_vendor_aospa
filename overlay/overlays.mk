@@ -20,7 +20,6 @@ PRODUCT_PACKAGES += \
     AOSPASettingsProviderOverlay \
     AOSPASystemUIOverlay \
     AndroidVividThemeOverlay \
-    AndroidBlackThemeOverlay \
     FontGoogleSansLatoOverlay \
     FontHarmonySansOverlay \
     FontInterOverlay \
